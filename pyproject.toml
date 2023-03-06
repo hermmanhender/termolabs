@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "pyfluids", "matplotlib"]
+build-backend = "hatchling.build"
+
+[project]
+name = "termolab"
+version = "0.0.1"
+authors = [
+  { name="Germán Rodolfo Henderson"},
+]
+description = "Paquete para poder analizar estados, procesos y ciclos termodinámicos."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/hermmanhender/termolabs"
+"Bug Tracker" = "https://github.com/hermmanhender/termolabs/issues"
